@@ -1,0 +1,19 @@
+name: Dusor
+version: 1.4
+main: main.java.me.dusor.Dusor
+author: byteJ
+depend: [Citizens, Vault]
+
+commands:
+  dusor:
+    description: Sæt en dusør på en spiller
+    usage: /dusor <spiller> <beløb>
+    aliases: [dusør]
+
+permissions:
+  dusor.reload:
+    description: Tillader brug af /dusor reload
+    default: op
+  dusor.remove:
+    description: Tillader admin at fjerne dusører
+    default: op

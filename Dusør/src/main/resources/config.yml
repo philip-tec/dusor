@@ -1,0 +1,27 @@
+prefix: "&c[Dusør] "
+min-bounty: 50
+max-bounty: 5000
+allowed-world: "main"
+
+# Debug mode - set to true to see debug messages in console
+debug: false
+
+messages:
+  no-console: "Denne kommando kan kun bruges af spillere."
+  usage: "Brug: /dusør <spiller> <beløb>"
+  player-not-found: "Spilleren er ikke online."
+  not-enough-money: "Du har ikke nok penge."
+  cannot-target-yourself: "Du kan ikke sætte dusør på dig selv."
+  invalid-amount: "Beløbet skal være et gyldigt positivt tal."
+  bounty-added: "%player% har sat en dusør på %target% på %amount%!"
+  bounty-increased: "%player% har tilføjet %amount% til %target%'s dusør (nu %total%)"
+  bounty-reward: "%killer% dræbte %victim% og modtog %amount% i dusør!"
+  bounty-reward-personal: "Du modtog %amount% i dusør!"
+  random-bounty-added: "Der er blevet sat en random dusør på %target% på %amount%!"
+  random-bounty-expired: "Random dusør på %player% er udløbet!"
+  test-bounty-added: "Test: Random dusør sat på %target% på %amount%"
+  test-expire-set: "Test-dusør på %target% udløber om 1 minut!"
+  test-expire-hint: "Brug '/dusor cleanup' for at fjerne den manuelt"
+  cleanup-none: "Ingen udløbne dusører fundet."
+  cleanup-removed: "Fjernede udløbet dusør på %player%"
+  cleanup-complete: "Cleanup færdig! Fjernede %count% udløbne dusører."
